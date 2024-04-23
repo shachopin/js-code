@@ -1,8 +1,12 @@
 import { name } from "https://ojet-starter-copy-dom.glitch.me/mygoldmine/utils/decorators.js";
-import {name as anotherName } from './goldmine/utils/decorators.js';
-import { name as anotherName2 } from "https://dawei-dai-codes.glitch.me/goldmine/utils/decorators.js";
-import { deepMapKeys } from "https://dawei-dai-codes.glitch.me/goldmine/utils/mapKeys.js";
+// import {name as anotherName } from './goldmine/utils/decorators.js';
+// import { name as anotherName2 } from "https://dawei-dai-codes.glitch.me/goldmine/utils/decorators.js";
+//import { deepMapKeys } from "https://dawei-dai-codes.glitch.me/goldmine/utils/mapKeys.js";
+//the above all worked well
+import {deepMapKeys } from "https://js-codes.netlify.app/goldmine/utils/mapKeys.js"
 
+
+///////////////////////////////////////////test your code above/////////////////////////
 /*
   This is your site JavaScript code - you can add interactivity!
 */
@@ -39,7 +43,7 @@ filer.forEach((f) => {
 });
 
 //////////////////////////////////////////////test your code below///////////////////////////
-// console.log(name)
+console.log(name)
 // console.log(anotherName)
 // console.log(anotherName2)
 const obj = {
