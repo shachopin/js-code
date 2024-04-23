@@ -1,10 +1,11 @@
-import { name } from "https://ojet-starter-copy-dom.glitch.me/mygoldmine/utils/decorators.js";
+//import { name } from "https://ojet-starter-copy-dom.glitch.me/mygoldmine/utils/decorators.js";
 // import {name as anotherName } from './goldmine/utils/decorators.js';
 // import { name as anotherName2 } from "https://dawei-dai-codes.glitch.me/goldmine/utils/decorators.js";
 //import { deepMapKeys } from "https://dawei-dai-codes.glitch.me/goldmine/utils/mapKeys.js";
 //the above all worked well
 import {deepMapKeys } from "https://js-codes.netlify.app/goldmine/utils/mapKeys.js"
-
+//even though glith to glitch worked well, netlify needed a setting to allow access cor
+//https://stackoverflow.com/questions/62507022/how-to-enable-cors-on-a-netlify-deployment
 
 ///////////////////////////////////////////test your code above/////////////////////////
 /*
@@ -43,7 +44,7 @@ filer.forEach((f) => {
 });
 
 //////////////////////////////////////////////test your code below///////////////////////////
-console.log(name)
+//console.log(name)
 // console.log(anotherName)
 // console.log(anotherName2)
 const obj = {
