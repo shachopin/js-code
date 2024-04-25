@@ -3,10 +3,10 @@
 // import { name as anotherName2 } from "https://dawei-dai-codes.glitch.me/goldmine/utils/decorators.js";
 //import { deepMapKeys } from "https://dawei-dai-codes.glitch.me/goldmine/utils/mapKeys.js";
 //the above all worked well
-import {deepMapKeys } from "https://js-codes.netlify.app/goldmine/utils/mapKeys.js"
-//even though glith to glitch worked well, netlify needed a setting to allow access cor
+//import {deepMapKeys } from "https://js-codes.netlify.app/goldmine/utils/mapKeys.js"
+//even though glith to glitch worked well, netlify needed a setting to allow access cor as below
 //https://stackoverflow.com/questions/62507022/how-to-enable-cors-on-a-netlify-deployment
-import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedlist.js"
+//import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedlist.js"
 
 ///////////////////////////////////////////test your code above/////////////////////////
 /*
@@ -15,7 +15,7 @@ import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedlist.
 
 // Print a message in the browser's dev tools console each time the page loads
 // Use your menus or right-click / control-click and choose "Inspect" > "Console"
-console.log("Hello 🌎");
+//console.log("Hello 🌎");
 
 /* 
 Make the "Click me!" button move when the visitor clicks it:
@@ -48,35 +48,18 @@ filer.forEach((f) => {
 //console.log(name)
 // console.log(anotherName)
 // console.log(anotherName2)
-const obj = {
-  foo: '1',
-  nested: {
-    child: {
-      withArray: [
-        {
-          grandChild: ['hello']
-        }
-      ]
-    }
-  }
-};
-console.log(deepMapKeys(obj, key => key.toUpperCase()));
+// const obj = {
+//   foo: '1',
+//   nested: {
+//     child: {
+//       withArray: [
+//         {
+//           grandChild: ['hello']
+//         }
+//       ]
+//     }
+//   }
+// };
+//console.log(deepMapKeys(obj, key => key.toUpperCase()));
 
 
-function test() {
-    let myLinkedList = new LinkedList(1);
-    myLinkedList.push(2);
-    myLinkedList.push(3);
-    myLinkedList.push(4);
-
-    console.log("LL before reverse():");
-    myLinkedList.printList();
-
-    myLinkedList.reverse();
-
-    console.log("\nLL after reverse():");
-    myLinkedList.printList();
-}
-
-
-test();
