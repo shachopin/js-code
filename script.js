@@ -6,7 +6,8 @@
 //import {deepMapKeys } from "https://js-codes.netlify.app/goldmine/utils/mapKeys.js"
 //even though glith to glitch worked well, netlify needed a setting to allow access cor as below
 //https://stackoverflow.com/questions/62507022/how-to-enable-cors-on-a-netlify-deployment
-//import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedlist.js"
+//import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedList.js"
+import { DoublyLinkedList } from "https://js-codes.netlify.app/goldmine/ds/doublyLinkedList.js"
 
 ///////////////////////////////////////////test your code above/////////////////////////
 /*
