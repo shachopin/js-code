@@ -6,6 +6,7 @@
 import {deepMapKeys } from "https://js-codes.netlify.app/goldmine/utils/mapKeys.js"
 //even though glith to glitch worked well, netlify needed a setting to allow access cor
 //https://stackoverflow.com/questions/62507022/how-to-enable-cors-on-a-netlify-deployment
+import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedlist.js"
 
 ///////////////////////////////////////////test your code above/////////////////////////
 /*
@@ -60,3 +61,22 @@ const obj = {
   }
 };
 console.log(deepMapKeys(obj, key => key.toUpperCase()));
+
+
+function test() {
+    let myLinkedList = new LinkedList(1);
+    myLinkedList.push(2);
+    myLinkedList.push(3);
+    myLinkedList.push(4);
+
+    console.log("LL before reverse():");
+    myLinkedList.printList();
+
+    myLinkedList.reverse();
+
+    console.log("\nLL after reverse():");
+    myLinkedList.printList();
+}
+
+
+test();
