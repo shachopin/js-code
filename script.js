@@ -8,6 +8,7 @@
 //https://stackoverflow.com/questions/62507022/how-to-enable-cors-on-a-netlify-deployment
 //import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedList.js"
 import { HashTable } from "https://js-codes.netlify.app/goldmine/ds/HashTable.js"
+import { listify, delistify } from './goldmine/utils/object.js'
 
 ///////////////////////////////////////////test your code above/////////////////////////
 /*
