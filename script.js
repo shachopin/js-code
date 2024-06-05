@@ -8,8 +8,9 @@
 //https://stackoverflow.com/questions/62507022/how-to-enable-cors-on-a-netlify-deployment
 //import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedList.js"
 import { HashTable } from "https://js-codes.netlify.app/goldmine/ds/HashTable.js"
-import { listify, delistify } from './goldmine/utils/object.js'
-
+//import { listify, delistify } from './goldmine/utils/object.js'
+import { deepMapKeys } from './goldmine/utils/mapKeys.js'
+import { flattenObject } from './goldmine/utils/flatten.js'
 ///////////////////////////////////////////test your code above/////////////////////////
 /*
   This is your site JavaScript code - you can add interactivity!
