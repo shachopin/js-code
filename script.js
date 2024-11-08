@@ -10,7 +10,8 @@
 import { HashTable } from "https://js-codes.netlify.app/goldmine/ds/HashTable.js"
 //import { listify, delistify } from './goldmine/utils/object.js'
 import { deepMapKeys } from './goldmine/utils/mapKeys.js'
-import { flattenObject } from './goldmine/utils/flatten.js'
+import { flattenObject } from "https://js-codes.netlify.app/goldmine/utils/flatten.js"
+
 ///////////////////////////////////////////test your code above/////////////////////////
 /*
   This is your site JavaScript code - you can add interactivity!
@@ -64,5 +65,10 @@ filer.forEach((f) => {
 //   }
 // };
 //console.log(deepMapKeys(obj, key => key.toUpperCase()));
-
-
+console.log(flattenObject({
+  a: {
+    b: {
+      c: 1
+    }
+  }
+}))
