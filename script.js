@@ -52,6 +52,7 @@ filer.forEach((f) => {
 });
 
 //////////////////////////////////////////////test your code below///////////////////////////
+/////////////you do NOT need to test code in script.js, you can test in each file, just import it above to execute/////
 //console.log(name)
 // console.log(anotherName)
 // console.log(anotherName2)
@@ -68,10 +69,10 @@ filer.forEach((f) => {
 //   }
 // };
 //console.log(deepMapKeys(obj, key => key.toUpperCase()));
-console.log(flattenObject({
-  a: {
-    b: {
-      c: 1
-    }
-  }
-}))
+// console.log(flattenObject({
+//   a: {
+//     b: {
+//       c: 1
+//     }
+//   }
+// }))
