@@ -7,10 +7,13 @@
 //even though glith to glitch worked well, netlify needed a setting to allow access cor as below
 //https://stackoverflow.com/questions/62507022/how-to-enable-cors-on-a-netlify-deployment
 //import { LinkedList } from "https://js-codes.netlify.app/goldmine/ds/linkedList.js"
-import { HashTable } from "https://js-codes.netlify.app/goldmine/ds/HashTable.js"
+//import { HashTable } from "https://js-codes.netlify.app/goldmine/ds/HashTable.js"
 //import { listify, delistify } from './goldmine/utils/object.js'
-import { deepMapKeys } from './goldmine/utils/mapKeys.js'
-import { flattenObject } from "https://js-codes.netlify.app/goldmine/utils/flatten.js"
+//import { deepMapKeys } from './goldmine/utils/mapKeys.js'
+//import { flattenObject } from "https://js-codes.netlify.app/goldmine/utils/flatten.js"
+import { shiftString } from "https://js-codes.netlify.app/goldmine/algo/map.js"
+// test code inside each file, no need to run test code here, you just need to import it to execute it
+//nothing needed to do in index.html
 
 ///////////////////////////////////////////test your code above/////////////////////////
 /*

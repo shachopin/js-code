@@ -20,6 +20,7 @@ export const delistify = (arr, mapFn) =>  Object.fromEntries(arr.map(mapFn));
 // { John: { age: 42 }, Adam: { age: 39 } }
 
 
+
 // export const mapObject = (arr, fn) =>
 //   Object.fromEntries(arr.map((el, i, arr) => [el, fn(el, i, arr)]));
 
