@@ -13,7 +13,8 @@
 //import { flattenObject } from "https://js-codes.netlify.app/goldmine/utils/flatten.js"
 //import { shiftString } from "https://js-codes.netlify.app/goldmine/algo/map.js"
 //import { flatten } from './goldmine/utils/flatten2.js'
-import './goldmine/utils/dig.js'
+//import './goldmine/utils/dig.js'
+import './goldmine/utils/JSONParser.js'
 // test code inside each file, no need to run test code here, you just need to import it to execute it
 //nothing needed to do in index.html
 
